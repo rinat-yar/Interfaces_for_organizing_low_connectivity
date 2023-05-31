@@ -3,13 +3,15 @@ package ru.netogia;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Objects;
+
 public class AviaSouls {
     private Ticket[] tickets = new Ticket[0];
 
     /**
      * Вспомогательный метод для имитации добавления элемента в массив
+     *
      * @param current Массив, в который мы хотим добавить элемент
-     * @param ticket Элемент, который мы хотим добавить
+     * @param ticket  Элемент, который мы хотим добавить
      * @return Возвращает новый массив, который выглядит как тот что мы передали,
      * но с добавлением нового элемента в конец
      */
@@ -24,6 +26,7 @@ public class AviaSouls {
 
     /**
      * Метод добавления билета в менеджер
+     *
      * @param ticket Добавляемый билет
      */
     public void add(Ticket ticket) {
@@ -36,8 +39,9 @@ public class AviaSouls {
 
     /**
      * Метод поиска билетов по маршруту
+     *
      * @param from Откуда вылетаем
-     * @param to Куда прилетаем
+     * @param to   Куда прилетаем
      * @return Массив из подходящих билетов
      */
     public Ticket[] search(String from, String to) {

@@ -65,9 +65,9 @@ public class AviaSoulsTest {
     }
 
     @Test
-    public void testSortComparator(){
+    public void testSortComparator() {
 
-        Ticket ticket1 = new Ticket("Санкт-Петербург","Лос-Анджелес", 53000, 8, 16); //8
+        Ticket ticket1 = new Ticket("Санкт-Петербург", "Лос-Анджелес", 53000, 8, 16); //8
         Ticket ticket2 = new Ticket("Санкт-Петербург", "Лос-Анджелес", 183000, 10, 17); //7
         Ticket ticket3 = new Ticket("Санкт-Петербург", "Лос-Анджелес", 56000, 8, 10); // 2
         Ticket ticket4 = new Ticket("Санкт-Петербург", "Лос-Анджелес", 280000, 16, 21); // 5
@@ -89,9 +89,9 @@ public class AviaSoulsTest {
     }
 
     @Test
-    public void testComparator(){
+    public void testComparator() {
 
-        Ticket ticket1 = new Ticket("Санкт-Петербург","Лос-Анджелес", 53000, 8, 16); //8
+        Ticket ticket1 = new Ticket("Санкт-Петербург", "Лос-Анджелес", 53000, 8, 16); //8
         Ticket ticket2 = new Ticket("Санкт-Петербург", "Лос-Анджелес", 183000, 10, 17); //7
         Ticket ticket3 = new Ticket("Санкт-Петербург", "Лос-Анджелес", 56000, 8, 10); // 2
         Ticket ticket4 = new Ticket("Санкт-Петербург", "Лос-Анджелес", 280000, 16, 21); // 5
